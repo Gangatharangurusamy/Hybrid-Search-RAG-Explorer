@@ -11,9 +11,9 @@ A production-grade Retrieval-Augmented Generation (RAG) system for PDF documents
 
 | | |
 |---|---|
-| **Web App** | `https://huggingface.co/spaces/Ganga1005/Hybrid-Search-RAG-Explorer` |
-| **API Docs** | `https://huggingface.co/spaces/Ganga1005/Hybrid-Search-RAG-Explorer/docs` |
-| **Repository** | `https://github.com/Ganga1005/Hybrid-Search-RAG-Explorer` |
+| **Web App** | [huggingface.co/spaces/Ganga1005/Hybrid-Search-RAG-Explorer](https://huggingface.co/spaces/Ganga1005/Hybrid-Search-RAG-Explorer) |
+| **API Docs** | [.../Hybrid-Search-RAG-Explorer/docs](https://huggingface.co/spaces/Ganga1005/Hybrid-Search-RAG-Explorer) |
+| **Repository** | [github.com/Gangatharangurusamy](https://github.com/Gangatharangurusamy) |
 
 ---
 
@@ -250,9 +250,11 @@ docker run -p 7860:7860 --env-file .env docmind-rag
 3. Push this repository to the Space's Git remote
 4. In Space **Settings → Variables and Secrets**, add:
    - `GROQ_API_KEY` = your Groq key
-5. The Space builds automatically and serves at your Space URL
+5. In Space **Settings → Storage Buckets**, attach a bucket and mount it at `/data`
+   - This ensures uploaded PDFs and ChromaDB indexes **persist across restarts**
+6. The Space builds automatically and serves at your Space URL
 
-> **Note:** Free-tier Spaces use ephemeral storage. Uploaded PDFs reset on restart. For persistent storage, enable a Storage Bucket in your Space settings.
+> **Storage:** This Space uses a persistent Storage Bucket mounted at `/data`. Uploaded PDFs and the vector index survive server restarts.
 
 ---
 
