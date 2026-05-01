@@ -1,3 +1,12 @@
+---
+title: Hybrid Search RAG Explorer
+emoji: 🔍
+colorFrom: indigo
+colorTo: purple
+sdk: docker
+pinned: false
+---
+
 # DocMind — Hybrid PDF RAG System
 
 > **Poppulo Graduate ML Engineer — Take-Home Challenge**  
