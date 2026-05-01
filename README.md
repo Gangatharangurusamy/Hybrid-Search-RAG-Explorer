@@ -22,7 +22,7 @@ A production-grade Retrieval-Augmented Generation (RAG) system for PDF documents
 |---|---|
 | **Web App** | [huggingface.co/spaces/Ganga1005/Hybrid-Search-RAG-Explorer](https://huggingface.co/spaces/Ganga1005/Hybrid-Search-RAG-Explorer) |
 | **API Docs** | [.../Hybrid-Search-RAG-Explorer/docs](https://huggingface.co/spaces/Ganga1005/Hybrid-Search-RAG-Explorer) |
-| **Repository** | [github.com/Gangatharangurusamy](https://github.com/Gangatharangurusamy) |
+| **Repository** | [github.com/Gangatharangurusamy](https://github.com/Gangatharangurusamy/Hybrid-Search-RAG-Explorer) |
 
 ---
 
